@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A51F2F61C1365640029A41C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51F2F51C1365640029A41C /* AppDelegate.swift */; };
+		1A51F2F81C1365640029A41C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51F2F71C1365640029A41C /* ViewController.swift */; };
+		1A51F2FB1C1365640029A41C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A51F2F91C1365640029A41C /* Main.storyboard */; };
+		1A51F2FD1C1365640029A41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A51F2FC1C1365640029A41C /* Assets.xcassets */; };
+		1A51F3001C1365640029A41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A51F2FE1C1365640029A41C /* LaunchScreen.storyboard */; };
+		1A51F30B1C1365640029A41C /* Wie_Denke_Ich_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51F30A1C1365640029A41C /* Wie_Denke_Ich_Tests.swift */; };
+		1A51F3161C1365640029A41C /* Wie_Denke_Ich_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51F3151C1365640029A41C /* Wie_Denke_Ich_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A51F3071C1365640029A41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A51F2EA1C1365640029A41C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A51F2F11C1365640029A41C;
+			remoteInfo = "Wie Denke Ich?";
+		};
+		1A51F3121C1365640029A41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A51F2EA1C1365640029A41C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A51F2F11C1365640029A41C;
+			remoteInfo = "Wie Denke Ich?";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A51F2F21C1365640029A41C /* Wie Denke Ich?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wie Denke Ich?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51F2F51C1365640029A41C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A51F2F71C1365640029A41C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A51F2FA1C1365640029A41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A51F2FC1C1365640029A41C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A51F2FF1C1365640029A41C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A51F3011C1365640029A41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A51F3061C1365640029A41C /* Wie Denke Ich?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wie Denke Ich?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51F30A1C1365640029A41C /* Wie_Denke_Ich_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wie_Denke_Ich_Tests.swift; sourceTree = "<group>"; };
+		1A51F30C1C1365640029A41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A51F3111C1365640029A41C /* Wie Denke Ich?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wie Denke Ich?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51F3151C1365640029A41C /* Wie_Denke_Ich_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wie_Denke_Ich_UITests.swift; sourceTree = "<group>"; };
+		1A51F3171C1365640029A41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A51F2EF1C1365640029A41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51F3031C1365640029A41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51F30E1C1365640029A41C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A51F2E91C1365640029A41C = {
+			isa = PBXGroup;
+			children = (
+				1A51F2F41C1365640029A41C /* Wie Denke Ich? */,
+				1A51F3091C1365640029A41C /* Wie Denke Ich?Tests */,
+				1A51F3141C1365640029A41C /* Wie Denke Ich?UITests */,
+				1A51F2F31C1365640029A41C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A51F2F31C1365640029A41C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A51F2F21C1365640029A41C /* Wie Denke Ich?.app */,
+				1A51F3061C1365640029A41C /* Wie Denke Ich?Tests.xctest */,
+				1A51F3111C1365640029A41C /* Wie Denke Ich?UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A51F2F41C1365640029A41C /* Wie Denke Ich? */ = {
+			isa = PBXGroup;
+			children = (
+				1A51F2F51C1365640029A41C /* AppDelegate.swift */,
+				1A51F2F71C1365640029A41C /* ViewController.swift */,
+				1A51F2F91C1365640029A41C /* Main.storyboard */,
+				1A51F2FC1C1365640029A41C /* Assets.xcassets */,
+				1A51F2FE1C1365640029A41C /* LaunchScreen.storyboard */,
+				1A51F3011C1365640029A41C /* Info.plist */,
+			);
+			path = "Wie Denke Ich?";
+			sourceTree = "<group>";
+		};
+		1A51F3091C1365640029A41C /* Wie Denke Ich?Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A51F30A1C1365640029A41C /* Wie_Denke_Ich_Tests.swift */,
+				1A51F30C1C1365640029A41C /* Info.plist */,
+			);
+			path = "Wie Denke Ich?Tests";
+			sourceTree = "<group>";
+		};
+		1A51F3141C1365640029A41C /* Wie Denke Ich?UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A51F3151C1365640029A41C /* Wie_Denke_Ich_UITests.swift */,
+				1A51F3171C1365640029A41C /* Info.plist */,
+			);
+			path = "Wie Denke Ich?UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A51F2F11C1365640029A41C /* Wie Denke Ich? */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51F31A1C1365640029A41C /* Build configuration list for PBXNativeTarget "Wie Denke Ich?" */;
+			buildPhases = (
+				1A51F2EE1C1365640029A41C /* Sources */,
+				1A51F2EF1C1365640029A41C /* Frameworks */,
+				1A51F2F01C1365640029A41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wie Denke Ich?";
+			productName = "Wie Denke Ich?";
+			productReference = 1A51F2F21C1365640029A41C /* Wie Denke Ich?.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A51F3051C1365640029A41C /* Wie Denke Ich?Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51F31D1C1365640029A41C /* Build configuration list for PBXNativeTarget "Wie Denke Ich?Tests" */;
+			buildPhases = (
+				1A51F3021C1365640029A41C /* Sources */,
+				1A51F3031C1365640029A41C /* Frameworks */,
+				1A51F3041C1365640029A41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A51F3081C1365640029A41C /* PBXTargetDependency */,
+			);
+			name = "Wie Denke Ich?Tests";
+			productName = "Wie Denke Ich?Tests";
+			productReference = 1A51F3061C1365640029A41C /* Wie Denke Ich?Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A51F3101C1365640029A41C /* Wie Denke Ich?UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51F3201C1365640029A41C /* Build configuration list for PBXNativeTarget "Wie Denke Ich?UITests" */;
+			buildPhases = (
+				1A51F30D1C1365640029A41C /* Sources */,
+				1A51F30E1C1365640029A41C /* Frameworks */,
+				1A51F30F1C1365640029A41C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A51F3131C1365640029A41C /* PBXTargetDependency */,
+			);
+			name = "Wie Denke Ich?UITests";
+			productName = "Wie Denke Ich?UITests";
+			productReference = 1A51F3111C1365640029A41C /* Wie Denke Ich?UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A51F2EA1C1365640029A41C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Laura Sophie Bertsch";
+				TargetAttributes = {
+					1A51F2F11C1365640029A41C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GT8L9YZ5JV;
+					};
+					1A51F3051C1365640029A41C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GT8L9YZ5JV;
+						TestTargetID = 1A51F2F11C1365640029A41C;
+					};
+					1A51F3101C1365640029A41C = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = GT8L9YZ5JV;
+						TestTargetID = 1A51F2F11C1365640029A41C;
+					};
+				};
+			};
+			buildConfigurationList = 1A51F2ED1C1365640029A41C /* Build configuration list for PBXProject "Wie Denke Ich?" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A51F2E91C1365640029A41C;
+			productRefGroup = 1A51F2F31C1365640029A41C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A51F2F11C1365640029A41C /* Wie Denke Ich? */,
+				1A51F3051C1365640029A41C /* Wie Denke Ich?Tests */,
+				1A51F3101C1365640029A41C /* Wie Denke Ich?UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A51F2F01C1365640029A41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51F3001C1365640029A41C /* LaunchScreen.storyboard in Resources */,
+				1A51F2FD1C1365640029A41C /* Assets.xcassets in Resources */,
+				1A51F2FB1C1365640029A41C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51F3041C1365640029A41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51F30F1C1365640029A41C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A51F2EE1C1365640029A41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51F2F81C1365640029A41C /* ViewController.swift in Sources */,
+				1A51F2F61C1365640029A41C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51F3021C1365640029A41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51F30B1C1365640029A41C /* Wie_Denke_Ich_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51F30D1C1365640029A41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51F3161C1365640029A41C /* Wie_Denke_Ich_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A51F3081C1365640029A41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A51F2F11C1365640029A41C /* Wie Denke Ich? */;
+			targetProxy = 1A51F3071C1365640029A41C /* PBXContainerItemProxy */;
+		};
+		1A51F3131C1365640029A41C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A51F2F11C1365640029A41C /* Wie Denke Ich? */;
+			targetProxy = 1A51F3121C1365640029A41C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A51F2F91C1365640029A41C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A51F2FA1C1365640029A41C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A51F2FE1C1365640029A41C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A51F2FF1C1365640029A41C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A51F3181C1365640029A41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1A51F3191C1365640029A41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A51F31B1C1365640029A41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wie Denke Ich?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.soffelweb.Wie-Denke-Ich-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A51F31C1C1365640029A41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wie Denke Ich?/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.soffelweb.Wie-Denke-Ich-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A51F31E1C1365640029A41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wie Denke Ich?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.soffelweb.Wie-Denke-Ich-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wie Denke Ich?.app/Wie Denke Ich?";
+			};
+			name = Debug;
+		};
+		1A51F31F1C1365640029A41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wie Denke Ich?Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.soffelweb.Wie-Denke-Ich-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wie Denke Ich?.app/Wie Denke Ich?";
+			};
+			name = Release;
+		};
+		1A51F3211C1365640029A41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wie Denke Ich?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.soffelweb.Wie-Denke-Ich-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wie Denke Ich?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A51F3221C1365640029A41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wie Denke Ich?UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.soffelweb.Wie-Denke-Ich-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wie Denke Ich?";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A51F2ED1C1365640029A41C /* Build configuration list for PBXProject "Wie Denke Ich?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51F3181C1365640029A41C /* Debug */,
+				1A51F3191C1365640029A41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A51F31A1C1365640029A41C /* Build configuration list for PBXNativeTarget "Wie Denke Ich?" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51F31B1C1365640029A41C /* Debug */,
+				1A51F31C1C1365640029A41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A51F31D1C1365640029A41C /* Build configuration list for PBXNativeTarget "Wie Denke Ich?Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51F31E1C1365640029A41C /* Debug */,
+				1A51F31F1C1365640029A41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A51F3201C1365640029A41C /* Build configuration list for PBXNativeTarget "Wie Denke Ich?UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51F3211C1365640029A41C /* Debug */,
+				1A51F3221C1365640029A41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A51F2EA1C1365640029A41C /* Project object */;
+}
