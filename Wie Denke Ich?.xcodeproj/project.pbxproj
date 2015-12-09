@@ -14,6 +14,7 @@
 		1A51F3001C1365640029A41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A51F2FE1C1365640029A41C /* LaunchScreen.storyboard */; };
 		1A51F30B1C1365640029A41C /* Wie_Denke_Ich_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51F30A1C1365640029A41C /* Wie_Denke_Ich_Tests.swift */; };
 		1A51F3161C1365640029A41C /* Wie_Denke_Ich_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A51F3151C1365640029A41C /* Wie_Denke_Ich_UITests.swift */; };
+		1A6B60661C18A9C6009489AF /* Simplemath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B60651C18A9C6009489AF /* Simplemath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		1A51F3111C1365640029A41C /* Wie Denke Ich?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wie Denke Ich?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A51F3151C1365640029A41C /* Wie_Denke_Ich_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wie_Denke_Ich_UITests.swift; sourceTree = "<group>"; };
 		1A51F3171C1365640029A41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6B60651C18A9C6009489AF /* Simplemath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Simplemath.swift; path = "Wie Denke Ich?/Simplemath.swift"; sourceTree = SOURCE_ROOT; };
+		1A6B60671C18ACAA009489AF /* Wie Denke Ich?.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Wie Denke Ich?.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				1A51F2F41C1365640029A41C /* Wie Denke Ich? */,
+				1A6B60641C18A9A0009489AF /* Math */,
 				1A51F3091C1365640029A41C /* Wie Denke Ich?Tests */,
 				1A51F3141C1365640029A41C /* Wie Denke Ich?UITests */,
 				1A51F2F31C1365640029A41C /* Products */,
@@ -97,6 +101,7 @@
 		1A51F2F41C1365640029A41C /* Wie Denke Ich? */ = {
 			isa = PBXGroup;
 			children = (
+				1A6B60671C18ACAA009489AF /* Wie Denke Ich?.entitlements */,
 				1A51F2F51C1365640029A41C /* AppDelegate.swift */,
 				1A51F2F71C1365640029A41C /* ViewController.swift */,
 				1A51F2F91C1365640029A41C /* Main.storyboard */,
@@ -124,6 +129,15 @@
 			);
 			path = "Wie Denke Ich?UITests";
 			sourceTree = "<group>";
+		};
+		1A6B60641C18A9A0009489AF /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				1A6B60651C18A9C6009489AF /* Simplemath.swift */,
+			);
+			name = Math;
+			path = "Wie Denke Ich?";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -194,6 +208,11 @@
 					1A51F2F11C1365640029A41C = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = GT8L9YZ5JV;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					1A51F3051C1365640029A41C = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -259,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6B60661C18A9C6009489AF /* Simplemath.swift in Sources */,
 				1A51F2F81C1365640029A41C /* ViewController.swift in Sources */,
 				1A51F2F61C1365640029A41C /* AppDelegate.swift in Sources */,
 			);
@@ -402,10 +422,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Wie Denke Ich?/Wie Denke Ich?.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Wie Denke Ich?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.soffelweb.Wie-Denke-Ich-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -413,10 +437,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Wie Denke Ich?/Wie Denke Ich?.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Wie Denke Ich?/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.soffelweb.Wie-Denke-Ich-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -487,6 +515,7 @@
 				1A51F31C1C1365640029A41C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A51F31D1C1365640029A41C /* Build configuration list for PBXNativeTarget "Wie Denke Ich?Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +524,7 @@
 				1A51F31F1C1365640029A41C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A51F3201C1365640029A41C /* Build configuration list for PBXNativeTarget "Wie Denke Ich?UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +533,7 @@
 				1A51F3221C1365640029A41C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
