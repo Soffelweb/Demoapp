@@ -48,7 +48,7 @@
 		1A51F3111C1365640029A41C /* Wie Denke Ich?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wie Denke Ich?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A51F3151C1365640029A41C /* Wie_Denke_Ich_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wie_Denke_Ich_UITests.swift; sourceTree = "<group>"; };
 		1A51F3171C1365640029A41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A6B60651C18A9C6009489AF /* Simplemath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Simplemath.swift; path = "Wie Denke Ich?/Simplemath.swift"; sourceTree = SOURCE_ROOT; };
+		1A6B60651C18A9C6009489AF /* Simplemath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simplemath.swift; sourceTree = "<group>"; };
 		1A6B60671C18ACAA009489AF /* Wie Denke Ich?.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Wie Denke Ich?.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				1A51F2F41C1365640029A41C /* Wie Denke Ich? */,
-				1A6B60641C18A9A0009489AF /* Math */,
 				1A51F3091C1365640029A41C /* Wie Denke Ich?Tests */,
 				1A51F3141C1365640029A41C /* Wie Denke Ich?UITests */,
 				1A51F2F31C1365640029A41C /* Products */,
@@ -102,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				1A6B60671C18ACAA009489AF /* Wie Denke Ich?.entitlements */,
+				1A6B60651C18A9C6009489AF /* Simplemath.swift */,
 				1A51F2F51C1365640029A41C /* AppDelegate.swift */,
 				1A51F2F71C1365640029A41C /* ViewController.swift */,
 				1A51F2F91C1365640029A41C /* Main.storyboard */,
@@ -129,15 +129,6 @@
 			);
 			path = "Wie Denke Ich?UITests";
 			sourceTree = "<group>";
-		};
-		1A6B60641C18A9A0009489AF /* Math */ = {
-			isa = PBXGroup;
-			children = (
-				1A6B60651C18A9C6009489AF /* Simplemath.swift */,
-			);
-			name = Math;
-			path = "Wie Denke Ich?";
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
