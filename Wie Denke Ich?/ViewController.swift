@@ -8,6 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController, Operations{
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var VarA: UITextField!
+    @IBOutlet weak var VarB: UITextField!
+    @IBOutlet weak var Result: UITextField!
+    @IBOutlet weak var Shell: UITextView!
+    
+   
     }
 
